@@ -95,6 +95,10 @@ class RolesController extends Controller{
         $this -> view("rol/update", $data, "auth");
     }
 
+
+
+
+    
     function update(){
         
         

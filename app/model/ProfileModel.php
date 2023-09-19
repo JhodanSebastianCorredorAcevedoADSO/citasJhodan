@@ -21,4 +21,5 @@ class ProfileModel extends Model
         $this->insert("profiles", $valores);
         $this->connection = $this->db->closConnection();
     }
+    
 }

@@ -28,10 +28,13 @@ class ProfileController extends Controller{
 
                 // Mover el archivo desde la ubicación temporal a la ubicación deseada
                 if (move_uploaded_file($_FILES["fileTest"]["tmp_name"], $uploadFile)) {
+
                     echo "El archivo se ha cargado correctamente.";
+
                 } else {
                     echo "Hubo un error al subir el archivo.";
                 }
+                
             } else {
                 echo "No se seleccionó ningún archivo o se produjo un error.";
             }

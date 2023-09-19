@@ -205,4 +205,8 @@ class LoginController extends Controller
             $this->view('update', $data, 'auth');
         }
     }
+    
+    function imagenes (){
+
+    }
 }
