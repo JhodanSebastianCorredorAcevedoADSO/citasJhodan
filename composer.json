@@ -1,0 +1,19 @@
+{
+    
+    "name": "sena/citas",
+    "authors": [
+        {
+            "name": "John Becerra",
+            "email": "jfbecerra@sena.edu.co"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Adso\\": "app/"
+        }
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.8",
+        "nesbot/carbon": "^2.70"
+    }
+}
